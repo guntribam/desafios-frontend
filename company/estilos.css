@@ -1,0 +1,164 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: linear-gradient(to right, #0066cc, #ffcc00);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000; /* Sombreamento mais escuro para facilitar a leitura */
+}
+
+.logo h1 {
+    font-family: serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #fff; /* Título da página em branco para contraste */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Texto em negrito ao passar o mouse */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline ao passar o mouse */
+}
+
+/* Estilos do banner */
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner h1 {
+    font-size: 36px;
+    background: rgba(00, 0, 0, .65);
+    margin: auto 600px;
+}
+
+.banner p {
+    font-size: 18px;
+    background: rgba(00, 0, 0, .65);
+    margin: auto 600px;
+}
+
+/* Estilos das seções de conteúdo */
+.sobre-nos, .nossos-produtos, .nossa-equipe, .depoimentos, .contato {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sobre-nos h2, .nossos-produtos h2, .nossa-equipe h2, .depoimentos h2, .contato h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center; /* Títulos centralizados */
+    margin-top: 0;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.descricao-produto {
+    flex: 1;
+}
+
+.descricao-produto h3 {
+    font-size: 18px;
+}
+
+.descricao-produto p {
+    line-height: 1.6;
+}
+
+/* Estilos da seção de equipe */
+.membro {
+    text-align: center;
+}
+
+.membro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+}
+
+.membro h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilos da seção de depoimentos */
+.depoimento {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.depoimento p {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
+
+.depoimento strong {
+    font-weight: bold;
+}
+
+/* Estilos de links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
